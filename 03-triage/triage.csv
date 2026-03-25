@@ -1,0 +1,11 @@
+﻿ID,Source,Élément,Preuve,Confiance,Sévérité,Impact,Recommandation,Référence OWASP,Statut
+FIND-001,Yaazhini,Communication HTTP non sécurisée,APICreds2Activity.java:23,Forte,High,Interception des identifiants/PIN sur le réseau,,Confirmé
+FIND-002,Yaazhini,Mode Debuggable activé,AndroidManifest.xml:7,Forte,Medium,Accès aux outils de débogage en production,,Confirmé
+FIND-003,Yaazhini,Sauvegarde Android activée,AndroidManifest.xml:7,Forte,Medium,Extraction facile des données privées via ADB,,Confirmé
+FIND-004,Yaazhini,Content Provider exporté,NotesProvider (AndroidManifest:36),Forte,Medium,Accès aux données par des apps malveillantes,,Confirmé
+FIND-005,BeVigil+Yaazhini,Stockage externe risqué,InsecureDataStorage4Activity.java / BeVigil Assets,Forte,Medium,Fuite de données privées sur la carte SD,,Confirmé
+FIND-006,BeVigil,Injection SQL potentielle,BeVigil Vulnerabilities (CWE-89),Moyenne,Medium,Lecture ou modification de la base SQLite locale,,À confirmer
+FIND-007,BeVigil,Fuite d'infos via Logs,BeVigil (CWE-532),Moyenne,Low,Mots de passe visibles dans Logcat,,À confirmer
+FIND-008,BeVigil,Secrets dans Strings,strings.xml (BeVigil),Moyenne,Low,Récupération de clés API par reverse engineering,,À confirmer
+FIND-009,Yaazhini,JavaScript activé dans WebView,InputValidation2URISchemeActivity.java,Forte,Low,Risque d'exécution de code arbitraire (XSS),,Confirmé
+FIND-010,Yaazhini,Manque de protection screenshots,Yaazhini Findings 8,Forte,Info,Capture visuelle possible de données sensibles,,Confirmé

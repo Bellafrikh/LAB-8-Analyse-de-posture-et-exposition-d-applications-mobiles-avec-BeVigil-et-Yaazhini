@@ -1,0 +1,17 @@
+﻿# Log des commandes - 2026-03-24 22:29:16
+mkdir 01-bevigil, 02-yaazhini, 03-triage, 04-report
+Copy-Item -Path '.\diva.apk' -Destination '00-scope\'
+Get-FileHash -Path '00-scope\diva.apk' -Algorithm SHA256
+Analyse BeVigil complétée via interface Web à 22:14
+Captures d'écran du rapport sauvegardées dans 01-bevigil\
+Updated BeVigil source in analyse_info.txt
+Created bevigil_notes.md with initial findings
+Created bevigil_notes.md with real analysis data from screenshots
+Scan Yaazhini complété le 2026-03-25 00:36
+Rapport exporté avec succès dans le dossier 02-yaazhini
+Analyse détaillée des vulnérabilités Yaazhini terminée le 2026-03-25 00:41
+Fichier yaazhini_notes.md généré avec 5 constats majeurs basés sur l'APK DIVA
+Triage CSV complété avec 10 constats consolidés
+Mapping OWASP complété pour les 5 vulnérabilités majeures
+Rapport final d'analyse de sécurité DIVA généré le 2026-03-25 00:48
+Audit clôturé. Checklist de fin générée et signée.

@@ -1,0 +1,10 @@
+Date: 2026-03-24
+Analyste: Zaynab Bellafrikh
+Cible: Application de Test EMSI
+Artefact: application_pedagogique.apk
+Provenance: Enseignant EMSI
+5CEFC51FCE9BD760B92AB2340477F4DDA84B4AE0C5D04A8C9493E4FE34FAB7C5
+Versions outils:
+  - BeVigil: Web Dashboard
+  - Yaazhini: 1.3.2
+Environnement: Windows Windows 10 Pro
